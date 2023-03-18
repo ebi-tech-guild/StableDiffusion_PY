@@ -40,8 +40,8 @@ class StableDiffusion(tk.Tk):
         self.lbl_input_img.grid(row=0, column=1)
         self.bt_input_image = tk.Button(frame, text="input image", command=self.inputImage)
         self.bt_input_image.grid(row=0, column=2)
-        self.bt_clear = tk.Button(frame, text="clear", command=self.clearInputImage)
-        self.bt_clear.grid(row=0, column=3)
+        #self.bt_clear = tk.Button(frame, text="clear", command=self.clearInputImage)
+        #self.bt_clear.grid(row=0, column=3)
         
         tk.Label(frame, text="OUTPUT_IMG:", width=10).grid(row=1, column=0)
         self.lbl_output_img = tk.Label(frame, text=self.OUTPUT_IMG, width=50, anchor="w")
